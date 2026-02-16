@@ -36,6 +36,30 @@ dotnet sln add ProjectName.App
 dotnet build
 dotnet run --project ProjectName.App
 ```
+Game Controls
+Movement:
+Use the Arrow Keys to Move around the map!
+Up, Down, Left, and Right!
+
+During battle: 
+The Battles are turn-based, try to hold your own against the slasher (M)
+You can Attack, Heal, and Flee.
+Do this buy using A, S, and F!
+
+Display Format:
+My game using a 10x10 text grid to show your map!
+The map is made of many symbols, and this is what they each mean:
+"#" = Wall
+. = Empty Space
+@ = Player
+M = Monster/Slasher
+W = Weapon
+P = Smore/Health Item
+E = Exit Point
+
+This text grid will update after each move to show your current position and the position of everything around you!
+
+
 
 ## Notes
 - Commit early and commit often.
